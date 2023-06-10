@@ -16,6 +16,7 @@ const Main = () => {
     const usersList = useSelector(getUsersList());
     const isUsersLoaded = useSelector(getDataStatus());
     const isLoggedIn = useSelector(getIsLoggedIn());
+    console.log(isLoggedIn);
     return (
         <>
             {isLoggedIn
