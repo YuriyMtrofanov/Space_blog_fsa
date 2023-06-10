@@ -1,0 +1,6 @@
+{
+    "port": 8080,
+    "mongoUri": "mongodb+srv://MitrofanovYuriy:fxv9n1EEkLQ7uW6g@space-blog.rudeuyj.mongodb.net/space-blog?retryWrites=true&w=majority",
+    "accessSecretKey": "spaceBlogSecretAccessKey",
+    "refreshSecretKey": "spaceBlogSecretRefrechKey"
+}

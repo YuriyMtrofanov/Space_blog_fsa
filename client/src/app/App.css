@@ -1,0 +1,106 @@
+.body {
+  background-color: rgb(24, 48, 84);
+}
+
+.App {
+  background-color: rgb(24, 48, 84);
+  font-family: 'Montserrat', sans-serif, rgb(169, 168, 168)  0;
+}
+
+.main-page-container {
+  background-color: rgb(7, 19, 37);
+  background-image: url("https://sun9-26.userapi.com/impg/xy7S6gfmzbMr_OQtNK1VXnMwJT7zp9b4WmBsnw/NFxCtj0jGig.jpg?size=1440x2020&quality=95&sign=442fa3b657d219a3037c69631b7343b4&type=album");
+}
+  .main-page-container-header {
+    font-family: 'Montserrat', sans-serif, Black  0;
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(222, 222, 225);
+    background-color: rgb(10, 24, 44);
+    height: 35vmin;
+    background-image: url("https://frazy.su/wp-content/uploads/2016/04/5.jpg");
+    text-align: center;
+  }
+
+.main-page-container-body {
+  background-color: rgb(10, 24, 44);
+  background-image: "url()";
+  font-family: 'Montserrat', sans-serif;
+  opacity: 90%;
+}
+
+.article-card-lg {
+  background-color: rgb(10, 24, 44);
+}
+
+.article-card-sm {
+  background-color: rgb(10, 24, 44);
+}
+
+.user-page-container {
+  background-color: rgb(7, 19, 37);
+  background-image: url("https://sun9-26.userapi.com/impg/xy7S6gfmzbMr_OQtNK1VXnMwJT7zp9b4WmBsnw/NFxCtj0jGig.jpg?size=1440x2020&quality=95&sign=442fa3b657d219a3037c69631b7343b4&type=album");
+}
+
+.articles-list-container {
+  background-color: rgb(7, 19, 37);
+  background-image: url("https://sun9-26.userapi.com/impg/xy7S6gfmzbMr_OQtNK1VXnMwJT7zp9b4WmBsnw/NFxCtj0jGig.jpg?size=1440x2020&quality=95&sign=442fa3b657d219a3037c69631b7343b4&type=album");
+}
+
+.favorites-container {
+  background-color: rgb(7, 19, 37);
+  background-image: url("https://sun9-26.userapi.com/impg/xy7S6gfmzbMr_OQtNK1VXnMwJT7zp9b4WmBsnw/NFxCtj0jGig.jpg?size=1440x2020&quality=95&sign=442fa3b657d219a3037c69631b7343b4&type=album");
+}
+
+.article-create-container {
+  background-color: rgb(7, 19, 37);
+  background-image: url("https://sun9-26.userapi.com/impg/xy7S6gfmzbMr_OQtNK1VXnMwJT7zp9b4WmBsnw/NFxCtj0jGig.jpg?size=1440x2020&quality=95&sign=442fa3b657d219a3037c69631b7343b4&type=album");
+}
+
+.article-form-container {
+  background-color: rgb(10, 24, 44);
+  opacity: 90%;
+}
+
+.article-edit-container {
+  background-color: rgb(7, 19, 37);
+  background-image: url("https://sun9-26.userapi.com/impg/xy7S6gfmzbMr_OQtNK1VXnMwJT7zp9b4WmBsnw/NFxCtj0jGig.jpg?size=1440x2020&quality=95&sign=442fa3b657d219a3037c69631b7343b4&type=album");
+}
+
+.admin-page-container {
+  background-color: rgb(7, 19, 37);
+  background-image: url("https://sun9-26.userapi.com/impg/xy7S6gfmzbMr_OQtNK1VXnMwJT7zp9b4WmBsnw/NFxCtj0jGig.jpg?size=1440x2020&quality=95&sign=442fa3b657d219a3037c69631b7343b4&type=album");
+}
+
+.article-page-container {
+  background-color: rgb(7, 19, 37);
+  background-image: url("https://sun9-26.userapi.com/impg/xy7S6gfmzbMr_OQtNK1VXnMwJT7zp9b4WmBsnw/NFxCtj0jGig.jpg?size=1440x2020&quality=95&sign=442fa3b657d219a3037c69631b7343b4&type=album");
+}
+
+.article-page-container-body {
+  background-color: rgb(10, 24, 44);
+  opacity: 90%;
+}
+
+.login-form-container {
+  background-color: rgb(7, 19, 37);
+  background-image: url("https://sun9-26.userapi.com/impg/xy7S6gfmzbMr_OQtNK1VXnMwJT7zp9b4WmBsnw/NFxCtj0jGig.jpg?size=1440x2020&quality=95&sign=442fa3b657d219a3037c69631b7343b4&type=album");
+}
+
+.login-form-container-body {
+  background-color: rgb(10, 24, 44);
+  opacity: 90%;
+}
+
+.users-list-page-container {
+  background-color: rgb(7, 19, 37);
+  background-image: url("https://sun9-26.userapi.com/impg/xy7S6gfmzbMr_OQtNK1VXnMwJT7zp9b4WmBsnw/NFxCtj0jGig.jpg?size=1440x2020&quality=95&sign=442fa3b657d219a3037c69631b7343b4&type=album");
+
+}
+
+.user-edit-container {
+  background-color: rgb(7, 19, 37);
+  background-image: url("https://sun9-26.userapi.com/impg/xy7S6gfmzbMr_OQtNK1VXnMwJT7zp9b4WmBsnw/NFxCtj0jGig.jpg?size=1440x2020&quality=95&sign=442fa3b657d219a3037c69631b7343b4&type=album");
+}
