@@ -6,7 +6,8 @@ import UserCardSmall from "../common/cards/userCardSmall";
 
 const TopAuthors = ({ users }) => {
     const sortBy = { iter: "rate", order: "desc" };
-    const TopAuthors = _.orderBy(users, [sortBy.iter], [sortBy.order]).slice(0, 4);
+    const authors = users.filter(user => user.accountType !== "reader");
+    const TopAuthors = _.orderBy(authors, [sortBy.iter], [sortBy.order]).slice(0, 4);
     return (
         <UsersLoader>
             {users.length > 0 &&

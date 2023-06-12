@@ -13,7 +13,7 @@ const ModalCard = ({ active, setActive }) => {
     const handleClick = () => {
         setActive(false);
         dispatch(removeArticle(articleId));
-        history.goBack();
+        history.push("/articles");
     };
 
     const handleBack = () => {

@@ -39,7 +39,9 @@ const UserImageCard = ({ user }) => {
                 )}
                 {user.accountType === "admin"
                     ? (<h3 className="text-secondary"><i className="bi bi-emoji-sunglasses"></i> Администратор</h3>)
-                    : (<h3 className="text-secondary"><i className="bi bi-emoji-smile"></i> Автор</h3>)
+                    : (user.accountType === "author"
+                        ? (<h3 className="text-secondary"><i className="bi bi-emoji-smile"></i> Автор</h3>)
+                        : (<h3 className="text-secondary"><i className="bi bi-emoji-smile"></i> Читатель</h3>))
                 }
                 <img
                     className="card-img-top rounded-circle p-2"
